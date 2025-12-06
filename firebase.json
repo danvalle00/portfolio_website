@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "gamedev-yhr",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
