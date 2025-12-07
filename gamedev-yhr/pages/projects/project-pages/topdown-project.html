@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,10 @@
     <link rel="stylesheet" href="/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
-        
+
         <header>
             <a class="logo" href="/">Daniel do Valle</a>
             <nav>
@@ -32,105 +34,97 @@
             </nav>
         </header>
 
-        
-        <section class="project-hero-section">
-            <div class="project-header">
-            
-                <a href="/pages/projects/projects.html" class="back-link">
-                    <i class="fas fa-arrow-left"></i> Back to Projects
-                </a>
-                
-                <h1>Pongers</h1>
-                <p class="project-subtitle">A modern twist on the classic arcade game.</p>
-            </div>
+        <div class="back-link-row">
+            <a href="/pages/projects/projects.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Projects
+            </a>
+        </div>
 
-            
-            <div class="project-banner">
-                <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Pongers Gameplay">
-            </div>
 
-            
-            <div class="project-actions">
-                <a href="#" class="btn"><i class="fab fa-itch-io"></i> Play on Itch.io</a>
-                <a href="https://github.com/danvalle00/pongers" class="btn btn-outline"><i class="fab fa-github"></i> View Source Code</a>
+        <section class="project-hero-section"
+            style="background: url('/images/loner-lander/lunarLanderArcade.png') center/cover no-repeat;">
+            <div class="project-hero-overlay"></div>
+            <div class="project-hero-content">
+                <h1>loner-lander</h1>
+                <p class="project-subtitle">My recreation of the classic Lunar Lander.</p>
+
+                <div class="project-actions">
+                    <a href="https://github.com/danvalle00/loner-lander" class="btn btn-outline"><i
+                            class="fab fa-github"></i> View Source Code</a>
+                </div>
             </div>
         </section>
 
-        
+        <div class="section-divider"></div>
+
+
         <section class="project-details-container">
-            
-            
+
+
             <div class="project-main-content">
                 <h2>About the Project</h2>
                 <p>
-                    Pongers is a re-imagining of the classic Pong game, developed as my first complete project in Unity. 
-                    The goal was to understand the core loop of game development, from input handling to physics collisions 
-                    and UI management.
+                    loner-lander is my recreation of the classic Lunar Lander game. In this game I made a twist of
+                    having different planets and different gravities and also increasing difficulty because the
+                    platforms get smaller as you progress.
                 </p>
-                <p>
-                    Unlike the original, this version features power-ups, dynamic difficulty adjustment, and a localized 
-                    multiplayer mode.
-                </p>
-
                 <h3>Key Features</h3>
                 <ul class="feature-list">
-                    <li><i class="fas fa-check"></i> Local Multiplayer (1v1)</li>
-                    <li><i class="fas fa-check"></i> Dynamic ball speed adjustment</li>
-                    <li><i class="fas fa-check"></i> Retro CRT shader effects</li>
-                    <li><i class="fas fa-check"></i> Sound effects made with Bfxr</li>
+                    <li><i class="fas fa-check"></i> Basic UI with TextMeshPro</li>
+                    <li><i class="fas fa-check"></i> MultiScene and High Score System</li>
+                    <li><i class="fas fa-check"></i> Multi Camera Angles</li>
                 </ul>
 
-                <h3>Technical Challenges</h3>
-                <p>
-                    One of the main challenges was calculating the bounce angle relative to where the ball hit the paddle. 
-                    I solved this by mapping the collision point to a normalized range and adjusting the reflection vector accordingly.
-                </p>
             </div>
 
-            
+
             <aside class="project-sidebar">
                 <div class="meta-box">
                     <h4><i class="fas fa-code"></i> Tech Stack</h4>
                     <div class="skills-grid">
-                        <div class="skill-tag">Unity 2021</div>
+                        <div class="skill-tag">Unity</div>
                         <div class="skill-tag">C#</div>
-                        <div class="skill-tag">HLSL (Shaders)</div>
+                        <div class="skill-tag">TextMesh Pro</div>
                     </div>
+
                 </div>
 
                 <div class="meta-box">
                     <h4><i class="fas fa-calendar"></i> Timeline</h4>
-                    <p>August 2023 - September 2023</p>
-                    <p class="meta-sub">Duration: 3 Weeks</p>
+                    <p>October 19 2025 - October 25 2025</p>
+                    <p class="meta-sub">Duration: 6 Days</p>
                 </div>
 
                 <div class="meta-box">
                     <h4><i class="fas fa-user"></i> My Role</h4>
                     <p>Solo Developer</p>
-                    <p class="meta-sub">Programming, Art, Sound</p>
+                    <p class="meta-sub">Programming, Art</p>
                 </div>
 
                 <div class="meta-box">
                     <h4><i class="fas fa-gamepad"></i> Platform</h4>
-                    <p>Windows, WebGL</p>
+                    <p>Windows</p>
                 </div>
             </aside>
         </section>
 
-        
+
         <section class="gallery-section">
             <h2 class="section-title">Gallery</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Menu Screen">
+                    <img src="/images/loner-lander/moonScene.png" alt="Moon Action">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gameplay Action">
+                    <img src="/images/loner-lander/marsScene.png" alt="Mars Action">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Victory Screen">
+                    <img src="/images/loner-lander/mainMenu.png" alt="Main Menu">
                 </div>
             </div>
+
+
+
         </section>
 
         <footer>
@@ -138,4 +132,5 @@
         </footer>
     </div>
 </body>
+
 </html>

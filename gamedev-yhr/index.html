@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel do Valle</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-        
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -25,7 +26,6 @@
                             <div class="dropdown-content">
                                 <a href="/pages/curriculo.html">Curriculum Vitae</a>
                                 <a href="/pages/studies.html">Studying</a>
-                                
                             </div>
                         </div>
                     </li>
@@ -33,19 +33,23 @@
             </nav>
         </header>
 
+        <!-- Added a wrapping div for content logic if needed, but CSS handles it via pseudo-elements now -->
         <section class="hero">
-            <h1>Hi! I am Daniel do Valle</h1>
-            <p>I'm a game developer</p>
-            <a href="#work" class="btn">View My Work</a>
+            <div class="hero-content">
+                <h1>Hi! I am Daniel do Valle</h1>
+                <p>I'm a game developer</p>
+                <a href="#work" class="btn btn-primary">View My Work</a>
+            </div>
         </section>
-        
+
         <section id="work">
             <h2 class="section-title">Selected Projects</h2>
             <div class="project-grid">
-                
+
                 <article class="project-card">
                     <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Game Screenshot">
+                        <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Game Screenshot">
                     </div>
                     <div class="card-content">
                         <h3>projeto q me orgulho 1</h3>
@@ -60,7 +64,8 @@
 
                 <article class="project-card">
                     <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Game Screenshot">
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Game Screenshot">
                     </div>
                     <div class="card-content">
                         <h3>projeto que me orgulho 2</h3>
@@ -75,7 +80,8 @@
 
                 <article class="project-card">
                     <div class="card-image">
-                        <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Game Screenshot">
+                        <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Game Screenshot">
                     </div>
                     <div class="card-content">
                         <h3>projeto que me orgulho 3</h3>
@@ -93,21 +99,22 @@
         <section id="about">
             <h2 class="section-title">About Me</h2>
             <p style="color: var(--text-muted); max-width: 600px;">
-            
-                Hi, I'm Daniel do Valle, a Brazil-based Computer Science student. I love playing video-games, listenig music, consuming art in general. I'm always eager to learn more about game development and improve my skills.
+                Hi, I'm Daniel do Valle, a Brazil-based Computer Science student. I love playing video-games, listenig
+                music, consuming art in general. I'm always eager to learn more about game development and improve my
+                skills.
             </p>
             <br>
             <div class="skills-grid">
                 <div class="skill-tag">Unity</div>
                 <div class="skill-tag">C#</div>
-                
             </div>
             <br>
             <h3>You can find me here</h3>
             <div class="social-links">
                 <a href="mailto:danieldovalle10@gmail.com"><i class="fas fa-envelope"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/daniel-do-valle-217483234/"><i class="fab fa-linkedin"></i></a>
-                <a target="_blank" href="https://github.com/danvalle00"><i class="fab fa-github"></i></a>                
+                <a target="_blank" href="https://www.linkedin.com/in/daniel-do-valle-217483234/"><i
+                        class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://github.com/danvalle00"><i class="fab fa-github"></i></a>
             </div>
         </section>
 
@@ -116,4 +123,5 @@
         </footer>
     </div>
 </body>
+
 </html>
