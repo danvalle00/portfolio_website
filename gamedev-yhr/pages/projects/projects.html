@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,16 @@
     <link rel="stylesheet" href="/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <header>
-            <a class="logo" href="#">Daniel do Valle</a>
+            <a class="logo" href="/">Daniel do Valle</a>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="#work">Highlights</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="/#work">Highlights</a></li>
+                    <li><a href="/#about">About</a></li>
                     <li><a href="/pages/projects/projects.html">Projects</a></li>
                     <li><a href="/pages/blog/blog.html">Blog</a></li>
                     <li>
@@ -24,98 +26,200 @@
                             <div class="dropdown-content">
                                 <a href="/pages/curriculo.html">Curriculum Vitae</a>
                                 <a href="/pages/studies.html">Studying</a>
-                                
+
                             </div>
                         </div>
                     </li>
                 </ul>
             </nav>
         </header>
-        
+
         <section class="hero">
             <h1>Personal Projects</h1>
             <h2>Some prototypes or experiments</h2>
             <p>Click on a project to learn more</p>
         </section>
-        
-        <div class="project-grid">    
-            <article class="project-card" onclick="location.href='project-pages/project1.html'" style="cursor: pointer;">
+
+        <div class="project-grid">
+
+            <!-- Car Project -->
+            <article class="project-card" onclick="location.href='project-pages/car-project.html'"
+                style="cursor: pointer;">
                 <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Game Screenshot">
+                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Game Screenshot">
                 </div>
                 <div class="card-content">
-                    <h3>projeto q me orgulho 1</h3>
-                    <span class="card-tech">// Unity, C#, technologias</span>
-                    <p>descriçao rapida</p>
+                    <div class="project-tags">
+                        <span class="project-tag">UNITY</span>
+                        <span class="project-tag">C#</span>
+                        <span class="project-tag">2D</span>
+                        <span class="project-tag">Udemy</span>
+                    </div>
+                    <h3>car-project</h3>
+                    <span class="card-tech">// Dez 7 2025</span>
+                    <p>
+                        Work in progress delivery car game, made when doing a Udemy course.
+                    </p>
                     <div class="card-links">
-                        <a href="#"><i class="fab fa-itch-io"></i> Play on Itch</a>
+                        <a href=""><i class="fab fa-itch-io"></i> Play on Itch</a>
                         <a href="#"><i class="fab fa-github"></i> Source</a>
                     </div>
                 </div>
             </article>
-        
-            <article class="project-card" onclick="location.href='project-pages/project2.html'" style="cursor: pointer;">
+
+            <!-- Loner Lander -->
+            <article class="project-card" onclick="location.href='project-pages/loner-lander.html'"
+                style="cursor: pointer;">
                 <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Game Screenshot">
+                    <img src="/images/loner-lander/lunarLanderArcade.png" alt="Game Screenshot">
                 </div>
                 <div class="card-content">
-                    <h3>projeto q me orgulho 1</h3>
-                    <span class="card-tech">// Unity, C#, technologias</span>
-                    <p>descriçao rapida</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Unity</span>
+                        <span class="project-tag">C#</span>
+                        <span class="project-tag">2D</span>
+                    </div>
+                    <h3>loner-lander</h3>
+                    <span class="card-tech">// Oct 25 2025</span>
+                    <p>My second completed project, a Lunar-Lander clone with additional planets for different gravities
+                    </p>
                     <div class="card-links">
-                        <a href="#"><i class="fab fa-itch-io"></i> Play on Itch</a>
-                        <a href="#"><i class="fab fa-github"></i> Source</a>
+                        <a href="https://github.com/danvalle00/loner-lander"><i class="fab fa-github"></i> Source</a>
+
                     </div>
                 </div>
             </article>
-            <article class="project-card" onclick="location.href='project-pages/project3.html'" style="cursor: pointer;">
+
+            <!-- Pongers -->
+            <article class="project-card" onclick="location.href='project-pages/pongers.html'" style="cursor: pointer;">
                 <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Game Screenshot">
+                    <img src="/images/pongers/pongArcadeMachine.png" alt="Game Screenshot">
                 </div>
                 <div class="card-content">
-                    <h3>projeto q me orgulho 1</h3>
-                    <span class="card-tech">// Unity, C#, technologias</span>
-                    <p>descriçao rapida</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Unity</span>
+                        <span class="project-tag">C#</span>
+                        <span class="project-tag">2D</span>
+                    </div>
+                    <h3>pongers</h3>
+                    <span class="card-tech">// Oct 18 2025</span>
+                    <p>My first completed mini-game, a Pong clone made with Unity.</p>
                     <div class="card-links">
-                        <a href="#"><i class="fab fa-itch-io"></i> Play on Itch</a>
-                        <a href="#"><i class="fab fa-github"></i> Source</a>
+                        <a href="https://github.com/danvalle00/pongers"><i class="fab fa-github"></i> Source</a>
+
                     </div>
                 </div>
             </article>
-            <article class="project-card" onclick="location.href='project-pages/project4.html'" style="cursor: pointer;">
+
+
+
+            <!-- Asteroids Go Brr -->
+            <article class="project-card" onclick="location.href='project-pages/asteroids-go-brr.html'"
+                style="cursor: pointer;">
                 <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Game Screenshot">
+                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Game Screenshot">
                 </div>
                 <div class="card-content">
-                    <h3>projeto q me orgulho 1</h3>
-                    <span class="card-tech">// Unity, C#, technologias</span>
-                    <p>descriçao rapida</p>
+                    <div class="project-tags">
+                        <span class="project-tag">GameMaker</span>
+                        <span class="project-tag">GML</span>
+                        <span class="project-tag">2D</span>
+                    </div>
+                    <h3>asteroids-go-brr</h3>
+                    <span class="card-tech">// Jun 7 2024</span>
+                    <p>My first GameMaker project, its a simple asteroids clone..</p>
                     <div class="card-links">
-                        <a href="#"><i class="fab fa-itch-io"></i> Play on Itch</a>
-                        <a href="#"><i class="fab fa-github"></i> Source</a>
+
+                        <a href="https://github.com/danvalle00/asteroids-go-brr"><i class="fab fa-github"></i>
+                            Source</a>
                     </div>
                 </div>
             </article>
-            <article class="project-card" onclick="location.href='project-pages/project5.html'" style="cursor: pointer;">
+
+
+            <!-- TopDown Game Project -->
+            <article class="project-card" onclick="location.href='project-pages/topdown-project.html'"
+                style="cursor: pointer;">
                 <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Game Screenshot">
+                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Game Screenshot">
                 </div>
                 <div class="card-content">
-                    <h3>projeto q me orgulho 1</h3>
-                    <span class="card-tech">// Unity, C#, technologias</span>
-                    <p>descriçao rapida</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Unity</span>
+                        <span class="project-tag">C#</span>
+                        <span class="project-tag">2D</span>
+                    </div>
+                    <h3>TopDown Game Project</h3>
+                    <span class="card-tech">// Jun 4 2024</span>
+                    <p>An very early stage top-down game project. Made only the controllers and harvesting and item pick
+                        logic</p>
                     <div class="card-links">
-                        <a href="#"><i class="fab fa-itch-io"></i> Play on Itch</a>
-                        <a href="#"><i class="fab fa-github"></i> Source</a>
+                        <a href="https://www.figma.com/design/S8h5ZnwhO58mCour4K5ow1/xdd-GDD?node-id=0-1&p=f"><i
+                                class="fab fa-figma"></i> Figma Brainstorm</a>
+                        <a href="https://github.com/danvalle00/untitledTopDownGame"><i class="fab fa-github"></i>
+                            Source</a>
                     </div>
                 </div>
             </article>
+
+
+
+            <!-- Project SpeedRun Metroidvania -->
+            <article class="project-card" onclick="location.href='project-pages/speedrun-project.html'"
+                style="cursor: pointer;">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Game Screenshot">
+                </div>
+                <div class="card-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Unity</span>
+                        <span class="project-tag">C#</span>
+                        <span class="project-tag">2D</span>
+                    </div>
+                    <h3>Project SpeedRun Metroidvania</h3>
+                    <span class="card-tech">// May 11 2024</span>
+                    <p>This is a project for a metroidvania with the goal to be very speedrunnable</p>
+                    <div class="card-links">
+                        <a href="https://github.com/danvalle00/SpeedPlayingvania"><i class="fab fa-github"></i>
+                            Source</a>
+
+                    </div>
+                </div>
+            </article>
+
+            <!-- Misty Venture -->
+            <article class="project-card" onclick="location.href='project-pages/mistyventure.html'"
+                style="cursor: pointer;">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Game Screenshot">
+                </div>
+                <div class="card-content">
+                    <div class="project-tags">
+                        <span class="project-tag">Unity</span>
+                        <span class="project-tag">C#</span>
+                        <span class="project-tag">2D</span>
+                    </div>
+                    <h3>MistyVenture</h3>
+                    <span class="card-tech">// Jun 29 2023</span>
+                    <p>A platform game developed during a game development class.</p>
+                    <div class="card-links">
+                        <a href="https://github.com/danvalle00/MistyVenture"><i class="fab fa-github"></i> Source</a>
+
+                    </div>
+                </div>
+            </article>
+
         </div>
         <footer>
             <p>&copy; Daniel do Valle</p>
         </footer>
     </div>
-    
+
 </body>
 
 </html>
