@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel do Valle - Studying</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body>
-    <h1>Estudos: Em construção</h1>
+    <div class="container">
+        <header>
+            <a class="logo" href="/">Daniel do Valle</a>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#work">Highlights</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/pages/projects/projects.html">Projects</a></li>
+                    <li><a href="/pages/blog/blog.html">Blog</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn pulse">More ></button>
+                            <div class="dropdown-content">
+                                <a href="/pages/curriculo.html">Curriculum Vitae</a>
+                                <a href="/pages/studies.html">Studying</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content-section">
+            <h1>Studying</h1>
+            <div class="section-divider"></div>
+            <h2>Here will be all the content I'm currently studying</h2>
+            <h2>Click a card for more details</h2>
+        </section>
+        <div class="study-grid">
+
+            <!-- Unity 2D Udemy Course -->
+            <article class="study-card" onclick="location.href='/pages/studying-pages/unity2dUdemy.html';"
+                style="cursor: pointer;">
+                <div class="card-image">
+                    <img src="/images/studying/udemyUnity2D.png" alt="Unity 2D Udemy Course Screenshot">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <div class="project-tags">
+                            <span class="project-tag">Unity</span>
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">2D</span>
+                        </div>
+                        <h3>Complete C# Unity 2D Game Development</h3>
+                    </div>
+                    <span class="card-tech">// Dez 2025 - Ongoing</span>
+                </div>
+            </article>
+
+            
+            <!-- Unity 3D Udemy Course -->
+            <article class="study-card" onclick="location.href='/pages/studying-pages/unity3dUdemy.html';"
+                style="cursor: pointer;">
+                <div class="card-image">
+                    <img src="/images/studying/udemyUnity3D.png" alt="Unity 3D Udemy Course Screenshot">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <div class="project-tags">
+                            <span class="project-tag">Unity</span>
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">3D</span>
+                        </div>
+                        <h3>Complete C# Unity 3D Game Development in Unity 6</h3>
+                    </div>
+                    <span class="card-tech">// Ready to Start</span>
+                </div>
+            </article>
+            
+
+        </div>
+
+
+    </div>
+    <footer>
+        <p>&copy; Daniel do Valle</p>
+    </footer>
 </body>
+
 </html>
